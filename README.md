@@ -31,9 +31,8 @@ GitHub Pages is configured to deploy from the `main` branch. Once enabled (Setti
 
 ## Known gaps
 
-A few binary assets referenced by the design system couldn't be pulled into this initial commit — they exceed a 256KB per-file transfer limit (their embedded content-credential metadata inflates the file size well past the actual image content):
+A few photography assets referenced by the design system couldn't be pulled into this repo yet — they exceed a 256KB per-file transfer limit on the design-sync tool used to export them (their embedded content-credential metadata inflates the file size well past the actual image content):
 
-- Photography: `fresh-barriga.jpg`, `fresh-presunto.jpg`, `fresh-pa.jpg`, `fresh-lombada.jpg`, `fresh-carcaca.jpg`, `fresh-lombo.jpg`, `lagoncinha-1.jpg`
-- Display font: `HighVoltageRough.ttf`
+- `fresh-barriga.jpg`, `fresh-presunto.jpg`, `fresh-pa.jpg`, `fresh-lombada.jpg`, `fresh-carcaca.jpg`, `fresh-lombo.jpg`, `lagoncinha-1.jpg`
 
-The pages degrade gracefully without them (blank card imagery, and the heading font falls back to Arial Black), but production photography and the real display font should be added under `assets/photography/` and `assets/fonts/` respectively to match the design system exactly.
+The affected pages degrade gracefully without them (blank card imagery instead of a broken image), but production photography should be added under `assets/photography/` to match the design system exactly.
