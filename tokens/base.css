@@ -1,0 +1,7 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--surface-page);color:var(--text-primary);font-family:var(--font-body);font-size:var(--text-body-md);line-height:var(--text-body-line)}
+a{color:var(--text-link);text-decoration:none}
+a:hover{color:var(--text-link-hover);text-decoration:underline}
+:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+img{max-width:100%;display:block}
